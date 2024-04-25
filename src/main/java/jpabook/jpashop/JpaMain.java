@@ -23,6 +23,7 @@ public class JpaMain {
         tx.begin(); // // Transaction 시작
 
         try {
+            
             Order order = new Order();
             em.persist(order);
 
